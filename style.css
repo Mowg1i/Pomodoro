@@ -1,0 +1,65 @@
+body {
+  background-color: #001f3f;
+}
+
+.title {
+
+  font-size: 40px;
+}
+
+.content {  
+  text-align: center;
+  padding: 40px;
+  margin: 40px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  min-width: 400px;
+}
+
+button{
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  font-size: 20px;
+  height: 50px;
+  width: 50px;
+  background-color: #39CCCC;
+  
+}
+
+button:hover {
+  
+    border: 2px solid white;
+  
+}
+
+
+button:focus {
+  outline:none;
+}
+
+.pomobutton {
+  background-color: lightblue;
+  height: 200px;
+  width: 200px;
+  margin: 30px;
+  font-size: 40px;
+  
+  
+}
+
+.container {
+  display: inline;
+}
+
+.reset {
+  
+  height: 20px;
+  width: 20px;
+  background-color: grey;
+  display: block;
+  margin: 0 auto;
+}
